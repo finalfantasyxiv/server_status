@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FFXIV Server Status</title>
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700|Linden+Hill" rel="stylesheet" type="text/css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="main-header">
+	<div class="md-container">
+		<h1 class="site-title md-title">Eorzea Status</h1>
+		<h2 class="site-intro md-title">To see which FFXIV servers are online or offline.</h2>
+		<p class="watch-time">Results: Wed, Oct 29th 2014 04:00:27 JST</p>
+		<button class="btn-reload"><i class="fa fa-refresh"></i></button>
+	</div>
+</header>
+<main id="main-content">
+	<div class="md-container">
+		<dl>
+			<dd class="data-center lobby">
+				<h3 class="data-center-title md-title">Lobby</h3>
+				<span class="status is-active"></span>
+			</dd>
+			<dd class="data-center jp">
+				<h3 class="data-center-title md-title">Elemental</h3>
+				<div class="region md-title">JP</div>
+				<dl>
+					<dd class="server Aegis">Aegis<span class="status is-active"></span></dd>
+					<dd class="server Atomos">Atomos<span class="status is-active"></span></dd>
+					<dd class="server Carbuncle">Carbuncle<span class="status is-active"></span></dd>
+					<dd class="server Garuda">Garuda<span class="status is-active"></span></dd>
+					<dd class="server Gungnir">Gungnir<span class="status is-active"></span></dd>
+					<dd class="server Kujata">Kujata<span class="status is-active"></span></dd>
+					<dd class="server Ramuh">Ramuh<span class="status is-active"></span></dd>
+					<dd class="server Tonberry">Tonberry<span class="status is-active"></span></dd>
+					<dd class="server Typhon">Typhon<span class="status is-active"></span></dd>
+					<dd class="server Unicorn">Unicorn<span class="status is-active"></span></dd>
+				</dl>
+			</dd>
+			<dd class="data-center jp">
+				<h3 class="data-center-title md-title">Gaia</h3>
+				<div class="region md-title">JP</div>
+				<dl>
+					<dd class="server Alexander">Alexander<span class="status is-active"></span></dd>
+					<dd class="server Bahamut">Bahamut<span class="status is-active"></span></dd>
+					<dd class="server Durandal">Durandal<span class="status is-active"></span></dd>
+					<dd class="server Fenrir">Fenrir<span class="status is-active"></span></dd>
+					<dd class="server Ifrit">Ifrit<span class="status is-active"></span></dd>
+					<dd class="server Ridill">Ridill<span class="status is-active"></span></dd>
+					<dd class="server Tiamat">Tiamat<span class="status is-active"></span></dd>
+					<dd class="server Ultima">Ultima<span class="status is-active"></span></dd>
+					<dd class="server Valefor">Valefor<span class="status is-active"></span></dd>
+					<dd class="server Yojimbo">Yojimbo<span class="status is-active"></span></dd>
+					<dd class="server Zeromus">Zeromus<span class="status is-active"></span></dd>
+				</dl>
+			</dd>
+			<dd class="data-center jp">
+				<h3 class="data-center-title md-title">Mana</h3>
+				<div class="region md-title">JP</div>
+				<dl>
+					<dd class="server Anima">Anima<span class="status is-active"></span></dd>
+					<dd class="server Asura">Asura<span class="status is-active"></span></dd>
+					<dd class="server Belias">Belias<span class="status is-active"></span></dd>
+					<dd class="server Chocobo">Chocobo<span class="status is-active"></span></dd>
+					<dd class="server Hades">Hades<span class="status is-active"></span></dd>
+					<dd class="server Ixion">Ixion<span class="status is-active"></span></dd>
+					<dd class="server Mandragora">Mandragora<span class="status is-active"></span></dd>
+					<dd class="server Masamune">Masamune<span class="status is-active"></span></dd>
+					<dd class="server Pandaemonium">Pandaemonium<span class="status is-active"></span></dd>
+					<dd class="server Shinryu">Shinryu<span class="status is-active"></span></dd>
+					<dd class="server Titan">Titan<span class="status is-active"></span></dd>
+				</dl>
+			</dd>
+			<dd class="data-center na">
+				<h3 class="data-center-title md-title">Aether</h3>
+				<div class="region md-title">NA</div>
+				<dl>
+					<dd class="server Adamantoise">Adamantoise<span class="status is-active"></span></dd>
+					<dd class="server Balmung">Balmung<span class="status is-active"></span></dd>
+					<dd class="server Cactuar">Cactuar<span class="status is-active"></span></dd>
+					<dd class="server Coeurl">Coeurl<span class="status is-active"></span></dd>
+					<dd class="server Faerie">Faerie<span class="status is-active"></span></dd>
+					<dd class="server Gilgamesh">Gilgamesh<span class="status is-active"></span></dd>
+					<dd class="server Goblin">Goblin<span class="status is-active"></span></dd>
+					<dd class="server Jenova">Jenova<span class="status is-active"></span></dd>
+					<dd class="server Mateus">Mateus<span class="status is-active"></span></dd>
+					<dd class="server Midgardsormr">Midgardsormr<span class="status is-active"></span></dd>
+					<dd class="server Sargatanas">Sargatanas<span class="status is-active"></span></dd>
+					<dd class="server Siren">Siren<span class="status is-active"></span></dd>
+					<dd class="server Zalera">Zalera<span class="status is-active"></span></dd>
+				</dl>
+			</dd>
+			<dd class="data-center na">
+				<h3 class="data-center-title md-title">Primal</h3>
+				<div class="region md-title">NA</div>
+				<dl>
+					<dd class="server Behemoth">Behemoth<span class="status is-active"></span></dd>
+					<dd class="server Brynhildr">Brynhildr<span class="status is-active"></span></dd>
+					<dd class="server Diabolos">Diabolos<span class="status is-active"></span></dd>
+					<dd class="server Excalibur">Excalibur<span class="status is-active"></span></dd>
+					<dd class="server Exodus">Exodus<span class="status is-active"></span></dd>
+					<dd class="server Famfrit">Famfrit<span class="status is-active"></span></dd>
+					<dd class="server Hyperion">Hyperion<span class="status is-active"></span></dd>
+					<dd class="server Lamia">Lamia<span class="status is-active"></span></dd>
+					<dd class="server Leviathan">Leviathan<span class="status is-active"></span></dd>
+					<dd class="server Malboro">Malboro<span class="status is-active"></span></dd>
+					<dd class="server Ultros">Ultros<span class="status is-active"></span></dd>
+				</dl>
+			</dd>
+			<dd class="data-center eu">
+				<h3 class="data-center-title md-title">Chaos</h3>
+				<div class="region md-title">EU</div>
+				<dl>
+					<dd class="server Cerberus">Cerberus<span class="status is-active"></span></dd>
+					<dd class="server Lich">Lich<span class="status is-active"></span></dd>
+					<dd class="server Moogle">Moogle<span class="status is-active"></span></dd>
+					<dd class="server Odin">Odin<span class="status is-active"></span></dd>
+					<dd class="server Phoenix">Phoenix<span class="status is-active"></span></dd>
+					<dd class="server Ragnarok">Ragnarok<span class="status is-active"></span></dd>
+					<dd class="server Shiva">Shiva<span class="status is-active"></span></dd>
+					<dd class="server Zodiark">Zodiark<span class="status is-active"></span></dd>
+				</dl>
+			</dd>
+		</dl>
+	</div>
+</main>
+<footer id="main-footer">2014 &copy; Kouryuu.net</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+(function() {
+	var statusUrl = 'http://frontier.ffxiv.com/worldStatus/current_status.json';
+	$.getJSON(statusUrl, function(data) {
+		$.each(data, function(key, val) {
+			$('.server.' + key).find('.status').html(val);
+		});
+	});
+})();
+</script>
+</body>
+</html>
